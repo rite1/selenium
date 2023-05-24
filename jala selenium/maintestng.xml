@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="utilities.Reporting"/>
+</listeners>
+
+  <test name="Test" thread-count="2" parallel="classes">
+ 
+    <classes>
+   	 <class name="testcases.Testcase_login1"/>
+    <class name="testcases.Testcase_login2"/>
+    <class name="testcases.Testcase_login3"/>
+    <class name="testcases.Testcase_login4"/>
+    <class name="testcases.Testcase_login5"/>
+    <class name="testcases.Testcase_login6"/>
+    <class name="testcases.TestCase_create1"/>
+     <class name="testcases.Testcase_create2"/>
+     <class name="testcases.TestCase_create3"/>
+      <class name="testcases.TestCase_Create4"/>
+       <class name="testcases.Testcase_Create5"/>
+        <class name="testcases.Testcase_Create6"/>
+         <class name="testcases.Testcase_Create7"/>
+         <class name="testcases.Testcase_create8"/>
+         <class name="testcases.TestCase_search1"/>
+         <class name="testcases.TestCase_search2"/>
+         <class name="testcases.TestCase_search3"/>
+         <class name="testcases.Testcase_search4"/>
+         <class name="testcases.Testcase_search5"/>
+         <class name="testcases.Testcase_search6"/>
+         <class name="testcases.TestCase_search7"/>
+         <class name="testcases.TestCase_search8"/>
+          <class name="testcases.Testcase_Menu1"/>
+           <class name="testcases.Testcase_menu2"/>
+            <class name="testcases.Testcase_menu3"/>
+             <class name="testcases.Testcase_menu4"/>
+              <class name="testcases.Testcase_menu5"/>
+               <class name="testcases.Testcase_menu6"/>
+                <class name="testcases.Testcase_Menu7"/>
+                <class name="testcases.Testcase_menu9"/>
+      		 <class name="testcases.Testcase_menu8"/>
+      		  <class name="testcases.TestCase_collapse1"/>
+      		  <class name="testcases.Testcase_collapsemul2"/>
+      		  <class name="testcases.Testcase_collapse3"/>
+     		<class name="testcases.Testcase_frame1"/>
+     		<class name="testcases.Testcase_iframe2"/>
+     		<class name="testcases.Testcase_image1"/>
+     		<class name="testcases.Testcase_image2"/>
+     		<class name="testcases.Testcase_image3"/>
+     		<class name="testcases.TestCase_link01"/>
+     		<class name="testcases.Testcase_link2"/>
+     		<class name="testcases.Testcase_link3"/>
+     		<class name="testcases.Testcase_popup1"/>
+     		<class name="testcases.Testcase_popup2"/>
+     		<class name="testcases.Testcase_popup3"/>
+     		<class name="testcases.TestCase_slider01"/>
+     		<class name="testcases.TestCase_slider2"/>
+      		<class name="testcases.Testcase_tooltips1"/>
+      		<class name="testcases.Testcase_tooltips2"/>
+   
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
